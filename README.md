@@ -61,6 +61,7 @@ Model Saved (model.p)
 ```
 
 ## ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
 bash
 Copy code
@@ -89,7 +90,8 @@ input_dir = 'path_to_your_dataset/clf-data'
 bash
 Copy code
 python app.py
-📦 Requirements
+
+## 📦 Requirements
 Your requirements.txt file should include:
 
 ini
@@ -97,7 +99,8 @@ Copy code
 scikit-learn==1.1.3
 scikit-image==0.19.3
 numpy==1.23.4
-💡 How It Works
+
+## 💡 How It Works
 Data Preparation: Reads images from the empty and not_empty folders and preprocesses them (resize → flatten).
 
 Training: Splits data (80/20) into training and test sets using train_test_split.
@@ -108,7 +111,7 @@ Evaluation: Evaluates accuracy using accuracy_score.
 
 Persistence: Saves the trained model as model.p using pickle for future use in a parking detection system.
 
-📊 Example Output
+## 📊 Example Output
 Terminal Output Example:
 
 matlab
@@ -119,7 +122,9 @@ Model Saved As:
 bash
 Copy code
 ./model.p
-🌍 Real-World Application
+
+## 🌍 Real-World Application
+
 This project addresses a real-world problem in smart parking systems by automating vehicle detection.
 It can be integrated with:
 
