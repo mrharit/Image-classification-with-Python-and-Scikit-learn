@@ -65,12 +65,14 @@ Model Saved (model.p)
 bash
 Copy code
 git clone https://github.com/mrharit/Image-classification-with-Python-and-Scikit-learn
+
 2️⃣ Create Virtual Environment
 bash
 Copy code
 python -m venv venv
 source venv/bin/activate    # Mac/Linux
 venv\Scripts\activate       # Windows
+
 3️⃣ Install Dependencies
 bash
 Copy code
@@ -81,6 +83,7 @@ In the script, update the dataset directory path:
 python
 Copy code
 input_dir = 'path_to_your_dataset/clf-data'
+
 5️⃣ Run the Training Script
 bash
 Copy code
