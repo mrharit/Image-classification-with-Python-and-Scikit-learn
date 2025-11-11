@@ -5,7 +5,7 @@
 ![Scikit-image](https://img.shields.io/badge/Scikit--image-0.19.3-0096D6?logo=scikit-image&logoColor=white)
 ![Numpy](https://img.shields.io/badge/NumPy-1.23.4-013243?logo=numpy&logoColor=white)
 ![Status](https://img.shields.io/badge/Project_Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 An **end-to-end computer vision project** that classifies parking spaces as **“Empty” or “Not Empty”** using **Scikit-learn (SVM)** and **Scikit-image**.  
 This model automates parking detection, supporting **smart city infrastructure** and real-time parking space management.
